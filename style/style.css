@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html{
+    background: url("../images/main.jpg") 0 0/ 100% 100% no-repeat;
+}
+
+body{
+    width: 90%;
+    height: 100vh;
+    max-width: 980px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr) ;
+}
+
+main{
+    color: wheat;
+    text-shadow: 2px 2px 1px black;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    
+}
+
+h1{
+    margin: 20px 0;
+    text-align: center;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.form{
+    padding: 10px;
+    text-align: center;
+}
+
+.result{
+    padding: 10px;
+    text-align: center;
+}
+
+
+
